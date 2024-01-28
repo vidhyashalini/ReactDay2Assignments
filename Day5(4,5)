@@ -1,0 +1,20 @@
+1)Study more details on state concept.   
+Ans:
+state can be modified based on user action or network changes
+Every time the state of an object changes, React re-renders the component to the browser
+The state object is initialized in the constructor
+The state object can store multiple properties
+this.setState() is used to change the value of the state object
+setState() function performs a shallow merge between the new and the previous state
+
+2)What are the differnces between state and props in react js?
+
+Props in ReactJS:
+Props, short for "properties," are a way to pass data from a parent component to a child component in React.
+They are similar to function arguments in that they allow you to pass values from one component to another. 
+Props are immutable, which means that once they are passed to a component, they cannot be changed.
+
+State in ReactJS:
+State represents the internal state of a component. It's an object that stores data that can be changed within the component.
+State should only be used for data that is specific to a component and can't be computed from props. 
+when the state of a component changes, React will re-render the component and its children.
